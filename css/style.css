@@ -1,0 +1,21 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.menu {
+    background-color: black;
+}
+
+#logo {
+    width: 10%;
+    padding: 2%;
+}
+
+nav {
+    text-align: center;
+}
+.linkmenu {
+    color: white;
+    display: inline-block;
+    
+}
