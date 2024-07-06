@@ -9,50 +9,119 @@
     <title>Canchas Compartir</title>
 </head>
 <body>
-     <div class="menu">
+    <header>
+        <img src="img/Logo3.png" id="logo">      
         <nav>
-            <img src="img/Logo2.png" alt="" id="logo">
-            <ul id="contenedorMenu">
-                <li class="linkmenu">Inicio</li>
-                <li class="linkmenu">Reserva</li>
-                <li class="linkmenu">Campeonatos</li>
-                <li class="linkmenu">Contacto</li> 
-                <li class="linkmenu">Login</li>    
-                 
-            </ul>
+            <a href="#">INICIO</a>
+            <a href="#">RESERVA</a>
+            <a href="#">CAMPEONATOS</a>
+            <a href="#">CONTACTO</a>
+            <a href="#">LOGIN</a>    
         </nav>
-    </div>
+        <section class="texto-header">
+            <h2 class="subtitulo"><span>¿Por qué jugar en nuestras canchas?</span></h2>
+            <p>Jugar futbol se ha convertido en un escape de la rutina de esta ciudad.  jugar con amigos es mas que solo jugar un partido y jugar en Canchas Sinteticas Compartir es el complemento perfecto para pasar un excelente momento de futbol y amigos. Nuestras instalaciones cuentan con tres canchas certificadas, contamos con amplia zona social, gradas, cafeteria, parqueadero y lo mejor 100% cubiertas.</p>
+        </section>
+        <div class="wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: rgb(255, 255, 255);"></path></svg></div>
+        
+    </header>
 
-    <div class="banner">
-        <img src="img/bg1.png" alt="">
-    </div>
+        <section class="servicios">    
+            <div class="contenedor">
+                <h1 class="titulo">Servicios</h1>
+                <div class="contenedor-banner">
+                    <img src="img/bg1.png">
+                </div>
+                <div class="texto-cards">
+                    <h3 class="titulos-card">RESERVAS</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque quam, culpa deserunt, quae eligendi sit officiis consequatur id itaque facere delectus dolore? Amet dolorum modi, voluptates sed minima ad iste!</p>
+                    <h3 class="titulos-card">CAMPEONATOS</h3>
+                    <p>Realizamos campeonatos propios y también alquilamos nuestras instalaciones para el desarrollo de campeonatos privados.  ¡Más información!</p>
+                </div>
+            </div>
+        </section>
 
-    <div class="descripcion">
-        <h1>FÚTBOL SINTETICO</h1>
-        <h2>¿Por qué jugar en nuestras canchas?</h2>
-        <p>Jugar futbol se ha convertido en un escape de la rutina de esta ciudad.  jugar con amigos es mas que solo jugar un partido y jugar en Canchas Sinteticas Six Sensation es el complemento perfecto para pasar un excelente momento de futbol y amigos. Nuestras instalaciones cuentan con tres canchas certificadas, contamos con amplia zona social, gradas, cafeteria, parqueadero y lo mejor 100% cubiertas.</p>
-    </div>
+        <section class="beneficios">
+            <div class="contenedor">
+                <h1 class="titulo">Beneficios de jugar en nuestras canchas</h1>
+                <h2 class="subtitulo">Diversión y seguridad garantizada</h2>
+                <div class="icons">
+                    <div class="img-icons">
+                        <p>Reserva rápida y sin complicaciones</p>
+                        <img src="img/reserva.png">
+                    </div>
+                    <div class="img-icons">
+                        <p>Zona Social y cafetería</p>
+                        <img src="img/social.png">
+                    </div>
+                    <div class="img-icons">
+                        <p>Exelentes precios</p>
+                        <img src="img/mejor-precio.png" >
+                    </div>
+                    <div class="img-icons">
+                        <p>Plan de FIdelización del 10</p>
+                        <img src="img/tarjeta-de-fidelizacion.png">
+                    </div>
+                </div>
+            </div>
+        </section>
 
-    <div class="servicios">
-        <ul>
-            <li>RESERVAS</li>
-            <li>CAMPEONATOS</li>
-        </ul>
-    </div>
+        <section>
+            <div class="contenedor">
+                <h1 class="titulo">Escribenos</h1>
+                <div class="form-contacto">
+                    <form >
+                        <fieldset>
+                            <legend>Información personal</legend>
+                            <label>Nombres y apellidos</label>
+                            <input class="input-padron" required name='nombre'/>
 
-    <div class="beneficios">
-        <h1>BENEFICIOS DE JUGAR EN NUESTRAS CANCHAS</h1>
-        <h2>Diversión y seguridad garantizada</h2   >
-        <ul>
-            <li>Reserva rápida y sin complicaciones</li>
-            <li>Zona Social y cafetería</li>
-            <li>Exelentes precios</li>
-            <li>Plan de FIdelización del 10</li>
-        </ul>
-    </div>
+                            <label>Correo electrónico</label> 
+                            <input class="input-padron" required placeholder="email@dominio.com" name='correo'/>
 
-    <div>
+                            <label>Celular</label> 
+                            <input className="input-padron" required placeholder="XXX XXXXXXX" name='celular'/>
 
-    </div>
+                            <label>Mensaje</label> 
+                            <textarea className="input-padron" required name='mensaje'></textarea>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="contenedor">
+                <h1 class="titulo">HORARIOS</h1>
+                <div class="card-horario">
+                    <p>Lunes a Domingo: 6am - 10pm</p>
+                    <p>Teléfono: +57 316 4067533</p>
+                    <p>Dirección: Bogotá</p>
+                    <h3>¡COMO LLEGAR!</h3>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+    
+    <footer>
+        <div class="contenedor-footer">
+            <div class="conten-foo">
+                <h4>¿Tienes Dudas?</h4>
+                <h5>Telefono de Contacto</h5>
+                <p>316 4067533</p>
+                <h5>Email</h5>
+                <p>luzgomezr98@gmail.com</p>
+            </div>
+            <div class="conten-foo">
+                <h4>Siguenos</h4>
+                <img src="img/facebook.png">
+                <img src="img/instagram.png">
+            </div>
+            <div class="conten-foo">
+                <p> &#169; Realizado por Luz Gómez Romero - 2024</p>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
